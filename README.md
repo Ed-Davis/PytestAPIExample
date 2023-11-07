@@ -5,7 +5,7 @@
 I have been refreshing some old skills and creating some examples for myself so I can be up and running more quickly. This example is the simplest possible API testing example, using PyTest
 
 ## Prerequisites:
-In addition to a working Python3 environment, you will need to install PyTest - as described here and the Requests library details here. Alternatively you can just use the requirements.txt file with ``` pip install -r requirements.txt ```
+In addition to a working Python3 environment, you will need to install PyTest - [as described here](https://docs.pytest.org/en/7.4.x/) and the [Requests library details here](https://pypi.org/project/requests/). Alternatively you can just use the requirements.txt file with ``` pip install -r requirements.txt ```
 
 ## Using this template
 You are free to use this as a starting point for an API framework using PyTest, although I would recommend making a similar framework for yourself as you will more thoroughly understand what is going on.
