@@ -7,6 +7,9 @@ I have been refreshing some old skills and creating some examples for myself so 
 ## Prerequisites:
 In addition to a working Python3 environment, you will need to install PyTest - as described here and the Requests library details here. Alternatively you can just use the requirements.txt file with ``` pip install -r requirements.txt ```
 
+## Using this template
+You are free to use this as a starting point for an API framework using PyTest, although I would reccomend making a similar framework for yourself as you will more thoroughly understand what is going on.
+
 # Next Steps
 
 Authenticated API; keeping creds local in a bash script which exports the api key and account details as ENV variables (keep the file local by adding it to the .gitignore in the project directory). This can accept a file to run as an argument but if your framework is simple, you could hardcode 'pytest api_main.py' in so it gets the variables at the time you run the tests.
