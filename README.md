@@ -10,6 +10,6 @@ In addition to a working Python3 environment, you will need to install PyTest - 
 # Next Steps
 
 Authenticated API; keeping creds local in a bash script which exports the api key and account details as ENV variables (keep the file local by adding it to the .gitignore in the project directory). This can accept a file to run as an argument but if your framework is simple, you could hardcode 'pytest api_main.py' in so it gets the variables at the time you run the tests.
-To this you can also add ``` -report=HTML > file.html``` (be smart and make it a timestamp based name or you will write over the same file each time...unless that's what you want!) so you can collect reports if needed.
+To this you can also add ``` -report=HTML > Reports/file.html``` (be smart and make it a timestamp based name or you will write over the same file each time...unless that's what you want!) so you can collect reports if needed.
 
 You can then call the environment variables in an authentication function, which can nested away in the requestslib.py file.
