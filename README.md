@@ -1,5 +1,5 @@
 # PytestAPIExample
-## Just a simple API Testinbg Framework using PyTest
+## Just a simple API Testing Framework using PyTest
 
 I have been refreshing some old skills and creating some examples for myself so I can be up and running more quickly.  This example is the simplest possible API testing example, using PyTest
 
@@ -16,9 +16,6 @@ To this you can also add " -report=HTML > file.html" (be smart and make it a tim
 You can then call the environment variables in an authentication function, which can nested away in the requestslib.py file.
 
 
-## Another option...
-
-Dockerizing the repo.
 
 
 
