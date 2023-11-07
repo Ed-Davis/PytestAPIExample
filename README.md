@@ -1,4 +1,4 @@
-# PytestAPIExample
+# Pytest API Example
 
 ## Just a simple API Testing Framework using PyTest
 
