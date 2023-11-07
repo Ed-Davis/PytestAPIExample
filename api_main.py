@@ -1,4 +1,4 @@
-from bin.requestsLib import Requests
+from bin.requestslib import Requests
 import pytest
 
 

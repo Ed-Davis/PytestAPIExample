@@ -25,4 +25,3 @@ class Requests:
         url = f"{self.base_url}/{endpoint}"
         response = requests.delete(url)
         return response
-
